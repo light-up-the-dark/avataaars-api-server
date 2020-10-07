@@ -4,7 +4,7 @@
   "author": "Tilo Mitra <tilomitra@gmail.com>",
   "private": true,
   "engines": {
-    "node": ">=12.0.0"
+    "node": "14.10.1"
   },
   "scripts": {
     "start": "node ./bin/www.js --exec babel-node --presets es2015,stage-2,react"
