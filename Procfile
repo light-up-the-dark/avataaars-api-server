@@ -1,1 +1,1 @@
-web: ./node_modules/.bin/forever -m 5 ./bin/www.js
+web: node ./bin/www.js --exec babel-node --presets es2015,stage-2,react
