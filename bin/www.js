@@ -3,7 +3,7 @@ require("babel-register")({
     presets: ["react"]
 });
 
-var debug = require("debug")("react-server-render-demo");
+// var debug = require("debug")("react-server-render-demo");
 var app = require("../app");
 
 app.set("port", process.env.PORT || 80);
